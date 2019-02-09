@@ -1,0 +1,55 @@
+.cursor {
+  display: inline-block;
+  margin-left: 1px;
+  -webkit-animation: blink 2s linear 0s infinite;
+  -moz-animation: blink 2s linear 0s infinite;
+  -ms-animation: blink 2s linear 0s infinite;
+  -o-animation: blink 2s linear 0s infinite; }
+
+@-webkit-keyframes blink {
+  0% {
+    color: #fff; }
+  47% {
+    color: #fff; }
+  50% {
+    color: #000; }
+  97% {
+    color: #000; }
+  100% {
+    color: #fff; } }
+
+@-moz-keyframes blink {
+  0% {
+    color: #fff; }
+  47% {
+    color: #fff; }
+  50% {
+    color: #000; }
+  97% {
+    color: #000; }
+  100% {
+    color: #fff; } }
+
+@-ms-keyframes blink {
+  0% {
+    color: #fff; }
+  47% {
+    color: #fff; }
+  50% {
+    color: #000; }
+  97% {
+    color: #000; }
+  100% {
+    color: #fff; } }
+
+@-o-keyframes blink {
+  0% {
+    color: #fff; }
+  47% {
+    color: #fff; }
+  50% {
+    color: #000; }
+  97% {
+    color: #000; }
+  100% {
+    color: #fff; } }

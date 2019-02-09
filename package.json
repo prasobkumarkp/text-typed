@@ -1,0 +1,36 @@
+{
+  "name": "text-typed",
+  "version": "0.0.3",
+  "description": "Text-Typed is a typescript library that types. Provide any string (or list of strings) and watch it type and backspace at given speed and oder (if you have specified more than one string).",
+  "main": "lib/TextTyped",
+  "types": "lib/TextTyped.d.ts",
+  "scripts": {
+    "build": "del /q \".\\lib\" & npm run build-css & tsc",
+    "build-css": "node-sass src/css/TextTyped.scss lib/TextTyped.css",
+    "test": "verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasobkumarkp/text-typed.git"
+  },
+  "keywords": [
+    "npm-text-typed",
+    "text-typed",
+    "auto-type-text",
+    "type-text"
+  ],
+  "author": "prasobkumarkp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prasobkumarkp/text-typed/issues"
+  },
+  "homepage": "https://github.com/prasobkumarkp/text-typed#readme",
+  "devDependencies": {
+    "@types/react": "^16.7.21",
+    "@types/react-dom": "^16.0.11",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "typescript": "^3.2.4"
+  }
+}
