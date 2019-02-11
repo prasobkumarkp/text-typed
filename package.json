@@ -1,6 +1,6 @@
 {
   "name": "text-typed",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Text-Typed is a typescript library that types. Provide any string (or list of strings) and watch it type and backspace at given speed and oder (if you have specified more than one string).",
   "main": "lib/TextTyped",
   "types": "lib/TextTyped.d.ts",
